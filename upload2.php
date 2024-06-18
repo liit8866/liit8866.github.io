@@ -1,17 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>上传插件</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GB18030" />
+<title>涓婁紶鎻掍欢</title>
 </head>
 <?php
 header('Content-Type: text/html; charset=gb2312'); 
 if(isset($_FILES['file2'])){
   $file = $_FILES['file2'];
  
-  // 保存文件到指定目录
+  // 淇濆瓨鏂囦欢鍒版寚瀹氱洰褰�
   move_uploaded_file($file['tmp_name'], './web/2kb.png');
-  echo '文件上传成功！';
+  echo '鏂囦欢涓婁紶鎴愬姛锛�';
 }
 ?>
 
