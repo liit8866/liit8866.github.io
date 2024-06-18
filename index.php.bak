@@ -1,10 +1,10 @@
+<?php
+ header('Content-Type: text/html; charset=gb2312'); 
+?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html"; charset="gb2312">
-<META HTTP-EQUIV="pragma" CONTENT="no-cache"> 
-<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
-<META HTTP-EQUIV="expires" CONTENT="0">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
 <title>欢迎使用中车计划物流系统</title>
 <link rel = "stylesheet" href="css/2.css">
 <style>
@@ -36,27 +36,27 @@ background-attachment: fixed;"
 >
 
 
-<div class="page"  alt='jhwl1' width="1800" height="800">
+<div class="page" >
 <h2>欢迎使用中车百色计划物流系统</h2>
   <div class="content">
-  <iframe src='kb1.html' width="95%" height="85%" ></iframe>
-
+  
+  <img src='./web/1kb.png' alt='jhwl1'>
   </div>
 </div>
 
-<div class="page"  alt='jhwl2' width="1800" height="800">
+<div class="page" >
  <h2>计划物流模块</h2>
   <div class="content">
   
-  <iframe src='kb2.html' width="95%" height="85%" ></iframe>
+ <img src='./web/2kb.png' alt='jhwl2' > 
   </div>
 </div>
  
-<div class="page"  alt='jhwl3' width="1800" height="800">
+<div class="page" >
 <h2>后处理模块</h2> 
   <div class="content">
   
-  <iframe src='kb3.html' width="95%" height="85%" ></iframe>
+  <img src='./web/3kb.png' alt='jhwl3' > 
   
   </div>
   
@@ -66,20 +66,21 @@ background-attachment: fixed;"
 <a href='https://fdmes.csrzic.com/app/'><p>点击进入MES系统</p></a>
 <br>
 <script>
-
+  function autoScroll() {
+  
+    window.scrollBy(0, window.innerHeight);
+window.location.reload();
+  }
   
   function scrollToTop() {
     window.scrollTo(0, 0); // 滚动到页面的左上角
 	window.location.reload();
-	// 清除本页面的缓存
-
-
 }
 
 
 
 setInterval(function() {
-window.scrollBy(0, window.innerHeight);
+    autoScroll() ;
 
 }, 5000);
 
