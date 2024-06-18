@@ -1,0 +1,23 @@
+#LB {
+    width: 100%;
+    height: 948px;
+    overflow: hidden;
+}
+
+#LB ul {
+    width: 100%;
+    height: 100%;
+    transform: translateY(0px);
+}
+
+#LB ul li {
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+}
+
+#LB ul li img {
+     width:100%;
+     height:100%;
+}

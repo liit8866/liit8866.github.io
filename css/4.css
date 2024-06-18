@@ -1,0 +1,19 @@
+body 
+{
+display: grid;
+place-items: center;
+height:30%;
+}
+
+table
+{
+font-size:4em;
+}
+
+
+h2 
+{
+font-size:3em;
+line-height:0.2;
+}
+
